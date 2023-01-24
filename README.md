@@ -3,8 +3,6 @@
 </h1>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/whoisdon/APIExpress?color=%2304D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/whoisdon/APIExpress">
 	
   <a href="https://discord.gg/3Cps7AuNQ6">
     <img alt="Made by ঔৣ☬✞𝓓𝖔𝖓✞☬ঔৣ#0552" src="https://img.shields.io/badge/made%20by-whoisdon-%2304D361">
