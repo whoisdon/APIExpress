@@ -40,13 +40,16 @@ Na sua linha de comando:
 ```bash
 # Clone esse repositório
 $ git clone https://github.com/whoisdon/APIExpress.git
-
+```
+```bash
 # Vá para o repositório Back-end
 $ cd APIExpress
-
+```
+```bash
 # Instale as dependencias
 $ npm install
-
+```
+```bash
 # Rode a aplicação
 $ npm start
 ```
