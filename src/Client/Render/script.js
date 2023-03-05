@@ -6,8 +6,8 @@ Supported commands are:
   - cat: concatenate and print files
   - clear: clear the terminal screen 
 `,
-  'secret1.txt': `cê que da cê fala..`,
-  'secret2.txt': `oh o cara kkkkk curioso...`,
+  'secret1.txt': `A verdadeira sabedoria está em reconhecer a própria ignorância.`,
+  'secret2.txt': `A vida sem reflexão não vale a pena ser vivida.`,
 }
 
 new class Terminal {
