@@ -45,10 +45,10 @@ $ git clone https://github.com/whoisdon/APIExpress.git
 $ cd APIExpress
 
 # Instale as dependencias
-$ npm install pnpm -g
+$ npm install
 
 # Rode a aplicação
-$ pnpm start
+$ npm start
 ```
 
 ## 📝 License
