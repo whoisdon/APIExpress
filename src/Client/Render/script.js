@@ -31,8 +31,10 @@ new class Terminal {
       ls: this.listFiles,
       cat: this.catFile,
     }
-    this.elements.input.addEventListener('keydown', this.onKeyDown)
-    this.catFile('README.md')
+    if (this.elements.input) {
+      this.elements.input.addEventListener('keydown', this.onKeyDown)
+      this.catFile('README.md')
+    }
   }
   
   clearHistory() {
@@ -96,7 +98,6 @@ new class Terminal {
       this.addHistory(`sh: command not found: ${inputCommand}`)
       
     this.scrollToBottom()
+    console.log('%cCréditos ao usuário @tryggvigy do CodePen por fornecer o incrível código que inspirou essa implementação. Obrigado por compartilhar seus talentos com a comunidade!', 'font-family: "Courier New", monospace; font-size: 15px; color: green; text-shadow: 1px 1px 1px black;');
   } 
 }
-
-console.log('%cCréditos ao usuário @tryggvigy do CodePen por fornecer o incrível código que inspirou essa implementação. Obrigado por compartilhar seus talentos com a comunidade!', 'font-family: "Courier New", monospace; font-size: 15px; color: green; text-shadow: 1px 1px 1px black;');
