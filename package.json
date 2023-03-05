@@ -3,19 +3,18 @@
   "version": "1.0.0",
   "description": " Aplicação desenvolvida para mostrar três principais formas de captar interações com o navegador.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "keywords": ["API", "API Express", "Application Programming Interface", "API Nodejs", "Simple API", "APIExpress"],
   "author": "ঔৣ☬✞𝓓𝖔𝖓✞☬ঔৣ#0552",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.6",
-    "express": "^4.18.2",
-    "glob": "^7.2.0",
-    "mal-scraper": "^2.11.4",
-    "manga-cli": "^1.0.5",
-    "node-fetch": "^3.2.6"
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
   }
 }
