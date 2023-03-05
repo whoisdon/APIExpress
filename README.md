@@ -29,7 +29,7 @@
 
 ## 📋 Projeto
 
-* 🔐 Aplicação desenvolvida para mostrar três principais formas de captar interações com o navegador. <br>
+* 🔐 Aplicação desenvolvida para mostrar três principais formas de captar interações com o navegador.<br>
 
 ## 💻 Como usar
 
@@ -45,10 +45,10 @@ $ git clone https://github.com/whoisdon/APIExpress.git
 $ cd APIExpress
 
 # Instale as dependencias
-$ npm install
+$ npm install pnpm -g
 
 # Rode a aplicação
-$ npm run start
+$ pnpm start
 ```
 
 ## 📝 License
@@ -59,4 +59,3 @@ Este projeto está sob a licença MIT. Consulte o [LICENSE](LICENSE) para obter 
 
 Feito por ঔৣ☬✞𝓓𝖔𝖓✞☬ঔৣ#0552 :wave: [Entre em contato comigo!](https://discord.com/users/828677274659586068)
 GitHub: [github.com/whoisdon](https://github.com/whoisdon) &nbsp;
-Website: [whoisdon.up.railway.app](https://whoisdon.up.railway.app) &nbsp;
