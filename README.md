@@ -29,7 +29,7 @@
 
 ## 📋 Projeto
 
-* 🔐 Aplicação desenvolvida para mostrar três principais formas de captar interações com o navegador.<br>
+* 🔐 Este repositório é uma coleção de classes e utilitários para a criação de rotas com o framework ExpressJS, utilizado em aplicações web em Node.js. Ao utilizar essas classes, é possível criar rotas de forma mais estruturada e organizada, tornando o código mais legível e fácil de dar manutenção.<br>
 
 ## 💻 Como usar
 
