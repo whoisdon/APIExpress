@@ -9,7 +9,7 @@ export default class extends MapRoutes {
     });
   }
 
-  execute(req, res) {
+  execute({req, res}) {
     res.sendFile(`${process.cwd()}/src/Client/Render/index.html`);
   }
 }
