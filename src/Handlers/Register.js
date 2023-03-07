@@ -23,7 +23,7 @@ export default class extends Register {
         cmd.options.json ? this.app.use(express.json()) : false;
         cmd.options.static ? this.app.use(express.static(`${process.cwd()}/${cmd.options.static}`)) : false;
   
-        const callback = (req, res, next) => cmd.execute(req, res, next);   
+        const callback = (req, res, next) => cmd.execute({req, res, next});   
         this.app[cmd.options.method](cmd.options.name, callback);
       }
     }
