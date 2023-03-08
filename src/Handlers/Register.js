@@ -20,8 +20,8 @@ export default class extends Register {
         const { default: MapRoutes } = await import(commandFile);
         const cmd = new MapRoutes(this);
   
-        cmd.options.json ? this.app.use(express.json()) : false;
-        cmd.options.static ? this.app.use(express.static(`${process.cwd()}/${cmd.options.static}`)) : false;
+        if (cmd.options.json) this.app.use(express.json());
+        if (cmd.options.static) this.app.use(express.static(`${process.cwd()}/${cmd.options.static}`));
   
         const callback = (req, res, next) => cmd.execute({req, res, next});   
         this.app[cmd.options.method](cmd.options.name, callback);
