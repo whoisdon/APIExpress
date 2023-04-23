@@ -5,4 +5,4 @@ class MapRoutes {
     }
   }
   
-  export default MapRoutes;
+export default MapRoutes;
