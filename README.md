@@ -62,6 +62,6 @@ Este projeto está sob a licença MIT. Consulte o [LICENSE](LICENSE) para obter 
 
 ---
 
-Feito por Who Am I#0001 :wave: [Entre em contato comigo!](https://discord.com/users/828677274659586068)
+Feito por 9iof :wave: [Entre em contato comigo!](https://discord.com/users/828677274659586068)
 GitHub: [github.com/whoisdon](https://github.com/whoisdon) &nbsp;
 Website: https://apiexpress-h2mu.onrender.com/ &nbsp;
