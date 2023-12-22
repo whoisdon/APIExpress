@@ -9,7 +9,7 @@
   <img alt="Repository issues" src="https://img.shields.io/github/languages/top/whoisdon/APIExpress">	
 	
   <a href="https://discord.gg/3Cps7AuNQ6">
-    <img alt="Made by ঔৣ☬✞𝓓𝖔𝖓✞☬ঔৣ#0552" src="https://img.shields.io/badge/made%20by-whoisdon-%2304D361">
+    <img alt="Made by 9iof" src="https://img.shields.io/badge/made%20by-whoisdon-%2304D361">
   </a>
 
   <a href="https://github.com/whoisdon/APIExpress/commits/master">
